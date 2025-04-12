@@ -1,0 +1,30 @@
+Source: ncsa-mosaic
+Section: www
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ build-essential,
+ libmotif-dev,
+ libjpeg62-turbo-dev,
+ libpng12-dev,
+ x11proto-print-dev,
+ libxmu-headers,
+ libxpm-dev,
+ libxmu-dev
+Standards-Version: 4.7.0
+Homepage: https://github.com/alandipert/ncsa-mosaic
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/ncsa-mosaic.git
+#Vcs-Browser: https://salsa.debian.org/debian/ncsa-mosaic
+
+Package: ncsa-mosaic
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: NCSA Mosaic 2.7 
+ This is NCSA Mosaic 2.7, one of the first graphical web browsers.
+ If you're on Ubuntu or something like it, your time machine is
+ fueled up and ready to go.
