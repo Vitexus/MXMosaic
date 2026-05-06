@@ -1,8 +1,10 @@
 # NCSA Mosaic
 
+![NCSA Mosaic icon](debian/icons/mosaic_128x128.png)
+
 ![NCSA Mosaic browser](http://github.com/downloads/alandipert/ncsa-mosaic/github.png "GitHub viewed with NCSA Mosaic")
 
-NCSA Mosaic 2.7b9 — one of the first graphical web browsers, originally
+NCSA Mosaic 2.7b9
 developed at the [National Center for Supercomputing Applications (NCSA)](https://www.ncsa.illinois.edu/)
 at the University of Illinois (1993–1997). This branch packages it for
 modern Debian/Ubuntu systems.
