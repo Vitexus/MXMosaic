@@ -1,0 +1,1552 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ncsa-mosaic
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     CHANGES
+           FEATURES
+           INSTALL
+           Makefile
+           Mosaic.ad
+           README.md
+           README.old
+           TODO
+           XKeysymDB
+           app-defaults.color
+           config.h
+           documents.menu
+           libXmx/Makefile
+           libXmx/Makefile.in
+           libXmx/Makefile.orig
+           libXmx/descrip.mms
+           libdtm/Makefile
+           libdtm/Makefile.orig
+           libdtm/README
+           libdtm/anim.h
+           libdtm/arch.h
+           libdtm/callback.c
+           libdtm/col.h
+           libdtm/com.h
+           libdtm/convert.c
+           libdtm/craycvt.c
+           libdtm/crayinit.f
+           libdtm/crayrtns.f
+           libdtm/db.h
+           libdtm/debug.h
+           libdtm/deccvt.c
+           libdtm/dtm.c
+           libdtm/dtm.h
+           libdtm/dtmf77.c
+           libdtm/dtminit.c
+           libdtm/dtmint.h
+           libdtm/dtmmisc.c
+           libdtm/dtmnserv.c
+           libdtm/dtmnserv.h
+           libdtm/exec.h
+           libdtm/fatal.c
+           libdtm/linux-uio.h
+           libdtm/make.depend
+           libdtm/mdd.c
+           libdtm/mdd.h
+           libdtm/ninit.c
+           libdtm/nmsg.c
+           libdtm/ris.c
+           libdtm/ris.h
+           libdtm/rwrtns.c
+           libdtm/sdl.c
+           libdtm/sdl.h
+           libdtm/sds.c
+           libdtm/sds.h
+           libdtm/sdsF.c
+           libdtm/socket.c
+           libdtm/srv.h
+           libdtm/text.h
+           libdtm/uio.h
+           libdtm/vaxcvt.c
+           libdtm/vdata.c
+           libdtm/vdata.h
+           libdtm/x.c
+           libhtmlw/AnchoredImage.xbm
+           libhtmlw/DelayedImage.xbm
+           libhtmlw/DrawingArea.c
+           libhtmlw/DrawingArea.h
+           libhtmlw/DrawingAreaP.h
+           libhtmlw/HTMLtable.c
+           libhtmlw/Makefile
+           libhtmlw/Makefile.in
+           libhtmlw/Makefile.orig
+           libhtmlw/NoImage.xbm
+           libhtmlw/NoImage.xbm-backup
+           libhtmlw/descrip.mms
+           libnet/Makefile
+           libnet/Makefile.orig
+           libnut/Makefile
+           libnut/Makefile.in
+           libnut/Makefile.orig
+           libnut/descrip.mms
+           libnut/ellipsis.c
+           libnut/str-tools.h
+           libnut/system.h
+           libnut/url-utils.h
+           libwww2/CUkerb.c
+           libwww2/HTAABrow.c
+           libwww2/HTAABrow.h
+           libwww2/HTAAFile.c
+           libwww2/HTAAFile.h
+           libwww2/HTAAProt.c
+           libwww2/HTAAProt.h
+           libwww2/HTAAServ.c
+           libwww2/HTAAServ.h
+           libwww2/HTAAUtil.c
+           libwww2/HTAAUtil.h
+           libwww2/HTACL.c
+           libwww2/HTACL.h
+           libwww2/HTAccess.c
+           libwww2/HTAccess.h
+           libwww2/HTAlert.c
+           libwww2/HTAlert.h
+           libwww2/HTAnchor.c
+           libwww2/HTAnchor.h
+           libwww2/HTAssoc.c
+           libwww2/HTAssoc.h
+           libwww2/HTAtom.c
+           libwww2/HTAtom.h
+           libwww2/HTAuth.c
+           libwww2/HTAuth.h
+           libwww2/HTChunk.c
+           libwww2/HTChunk.h
+           libwww2/HTCompressed.c
+           libwww2/HTCompressed.h
+           libwww2/HTFTP.h
+           libwww2/HTFWriter.c
+           libwww2/HTFWriter.h
+           libwww2/HTFile.c
+           libwww2/HTFile.h
+           libwww2/HTFormat.c
+           libwww2/HTFormat.h
+           libwww2/HTGopher.c
+           libwww2/HTGopher.h
+           libwww2/HTGroup.c
+           libwww2/HTGroup.h
+           libwww2/HTInit.h
+           libwww2/HTLex.c
+           libwww2/HTLex.h
+           libwww2/HTList.c
+           libwww2/HTList.h
+           libwww2/HTMIME.c
+           libwww2/HTMIME.h
+           libwww2/HTML.c
+           libwww2/HTML.h
+           libwww2/HTMLDTD.c
+           libwww2/HTMLDTD.h
+           libwww2/HTMLGen.c
+           libwww2/HTMLGen.h
+           libwww2/HTMailto.c
+           libwww2/HTMosaicHTML.c
+           libwww2/HTMosaicHTML.h
+           libwww2/HTNews.c
+           libwww2/HTNews.h
+           libwww2/HTParse.c
+           libwww2/HTParse.h
+           libwww2/HTPasswd.c
+           libwww2/HTPasswd.h
+           libwww2/HTPlain.c
+           libwww2/HTPlain.h
+           libwww2/HTSort.c
+           libwww2/HTSort.h
+           libwww2/HTStream.h
+           libwww2/HTString.c
+           libwww2/HTString.h
+           libwww2/HTTCP.c
+           libwww2/HTTCP.h
+           libwww2/HTTP.c
+           libwww2/HTTP.h
+           libwww2/HTTelnet.c
+           libwww2/HTTelnet.h
+           libwww2/HTUU.c
+           libwww2/HTUU.h
+           libwww2/HTUtils.h
+           libwww2/HTWAIS.c
+           libwww2/HTWAIS.h
+           libwww2/HTWSRC.c
+           libwww2/HTWSRC.h
+           libwww2/HTWriter.c
+           libwww2/HTWriter.h
+           libwww2/HText.h
+           libwww2/Makefile
+           libwww2/Makefile.in
+           libwww2/Makefile.orig
+           libwww2/SGML.c
+           libwww2/SGML.h
+           libwww2/tcp.h
+           makefiles/Makefile.freebsd
+           makefiles/Makefile.linux
+           makefiles/Makefile.netbsd
+           makefiles/Makefile.unicos
+           mosaic-spoof-agents
+           mosaic-user-defs
+           platform-configs/config.linux
+           platform-configs/config.unicos
+           src/Makefile
+           src/Makefile.in
+           src/Makefile.orig
+           src/accept.h
+           src/bitmaps/annotate.xbm
+           src/bitmaps/busy_1.xbm
+           src/bitmaps/busy_1_mask.xbm
+           src/bitmaps/busy_2.xbm
+           src/bitmaps/busy_2_mask.xbm
+           src/bitmaps/busy_3.xbm
+           src/bitmaps/busy_3_mask.xbm
+           src/bitmaps/busy_4.xbm
+           src/bitmaps/busy_4_mask.xbm
+           src/bitmaps/busy_5.xbm
+           src/bitmaps/busy_5_mask.xbm
+           src/bitmaps/busy_6.xbm
+           src/bitmaps/busy_6_mask.xbm
+           src/bitmaps/busy_7.xbm
+           src/bitmaps/busy_7_mask.xbm
+           src/bitmaps/busy_8.xbm
+           src/bitmaps/busy_8_mask.xbm
+           src/bitmaps/busy_9.xbm
+           src/bitmaps/busy_9_mask.xbm
+           src/bitmaps/gopher_binary.xbm
+           src/bitmaps/gopher_ftp.xbm
+           src/bitmaps/gopher_image.xbm
+           src/bitmaps/gopher_index.xbm
+           src/bitmaps/gopher_menu.xbm
+           src/bitmaps/gopher_movie.xbm
+           src/bitmaps/gopher_sound.xbm
+           src/bitmaps/gopher_telnet.xbm
+           src/bitmaps/gopher_text.xbm
+           src/bitmaps/gopher_unknown.xbm
+           src/bitmaps/hotlist.xbm
+           src/bitmaps/iconify.xbm
+           src/bitmaps/iconify_mask.xbm
+           src/bitmaps/security.xbm
+           src/bitmaps/xmosaic.xbm
+           src/bitmaps/xmosaic_down.xbm
+           src/bitmaps/xmosaic_left.xbm
+           src/bitmaps/xmosaic_plain.xbm
+           src/bitmaps/xmosaic_right.xbm
+           src/cciServer.h
+           src/hdf-browse.c
+           src/kcms.h
+           src/memStuffForPipSqueeks.h
+           src/pixmaps/icon.1.xpm
+           src/pixmaps/icon.10.xpm
+           src/pixmaps/icon.11.xpm
+           src/pixmaps/icon.12.xpm
+           src/pixmaps/icon.13.xpm
+           src/pixmaps/icon.14.xpm
+           src/pixmaps/icon.15.xpm
+           src/pixmaps/icon.16.xpm
+           src/pixmaps/icon.17.xpm
+           src/pixmaps/icon.18.xpm
+           src/pixmaps/icon.19.xpm
+           src/pixmaps/icon.2.xpm
+           src/pixmaps/icon.20.xpm
+           src/pixmaps/icon.21.xpm
+           src/pixmaps/icon.22.xpm
+           src/pixmaps/icon.23.xpm
+           src/pixmaps/icon.24.xpm
+           src/pixmaps/icon.25.xpm
+           src/pixmaps/icon.3.xpm
+           src/pixmaps/icon.4.xpm
+           src/pixmaps/icon.5.xpm
+           src/pixmaps/icon.6.xpm
+           src/pixmaps/icon.7.xpm
+           src/pixmaps/icon.8.xpm
+           src/pixmaps/icon.9.xpm
+           src/pixmaps/larry.1.xpm
+           src/pixmaps/larry.2.xpm
+           src/pixmaps/larry.3.xpm
+           src/pixmaps/larry.4.xpm
+           src/pixmaps/lock_basic.xpm
+           src/pixmaps/lock_domain.xpm
+           src/pixmaps/lock_kerberos4.xpm
+           src/pixmaps/lock_kerberos5.xpm
+           src/pixmaps/lock_login.xpm
+           src/pixmaps/lock_md5.xpm
+           src/pixmaps/mag.1.xpm
+           src/pixmaps/mag.10.xpm
+           src/pixmaps/mag.11.xpm
+           src/pixmaps/mag.12.xpm
+           src/pixmaps/mag.13.xpm
+           src/pixmaps/mag.14.xpm
+           src/pixmaps/mag.15.xpm
+           src/pixmaps/mag.16.xpm
+           src/pixmaps/mag.17.xpm
+           src/pixmaps/mag.18.xpm
+           src/pixmaps/mag.19.xpm
+           src/pixmaps/mag.2.xpm
+           src/pixmaps/mag.20.xpm
+           src/pixmaps/mag.21.xpm
+           src/pixmaps/mag.3.xpm
+           src/pixmaps/mag.4.xpm
+           src/pixmaps/mag.5.xpm
+           src/pixmaps/mag.6.xpm
+           src/pixmaps/mag.7.xpm
+           src/pixmaps/mag.8.xpm
+           src/pixmaps/mag.9.xpm
+           src/pixmaps/not_secure.xpm
+           src/pixmaps/s_icon.1.xpm
+           src/pixmaps/s_icon.10.xpm
+           src/pixmaps/s_icon.11.xpm
+           src/pixmaps/s_icon.12.xpm
+           src/pixmaps/s_icon.13.xpm
+           src/pixmaps/s_icon.14.xpm
+           src/pixmaps/s_icon.15.xpm
+           src/pixmaps/s_icon.16.xpm
+           src/pixmaps/s_icon.17.xpm
+           src/pixmaps/s_icon.18.xpm
+           src/pixmaps/s_icon.19.xpm
+           src/pixmaps/s_icon.2.xpm
+           src/pixmaps/s_icon.20.xpm
+           src/pixmaps/s_icon.21.xpm
+           src/pixmaps/s_icon.22.xpm
+           src/pixmaps/s_icon.23.xpm
+           src/pixmaps/s_icon.24.xpm
+           src/pixmaps/s_icon.25.xpm
+           src/pixmaps/s_icon.3.xpm
+           src/pixmaps/s_icon.4.xpm
+           src/pixmaps/s_icon.5.xpm
+           src/pixmaps/s_icon.6.xpm
+           src/pixmaps/s_icon.7.xpm
+           src/pixmaps/s_icon.8.xpm
+           src/pixmaps/s_icon.9.xpm
+           src/pixmaps/splash.xpm
+           src/pixmaps/tearh.xpm
+           src/pixmaps/tearv.xpm
+           src/pixmaps/toolbar_back_1.xpm
+           src/pixmaps/toolbar_clone_window_1.xpm
+           src/pixmaps/toolbar_close_window_1.xpm
+           src/pixmaps/toolbar_followup_1.xpm
+           src/pixmaps/toolbar_forw_1.xpm
+           src/pixmaps/toolbar_ftp_mkdir_1.xpm
+           src/pixmaps/toolbar_ftp_put_1.xpm
+           src/pixmaps/toolbar_home_1.xpm
+           src/pixmaps/toolbar_hotlist.xpm
+           src/pixmaps/toolbar_hotlist_1.xpm
+           src/pixmaps/toolbar_news_groups_1.xpm
+           src/pixmaps/toolbar_news_list_1.xpm
+           src/pixmaps/toolbar_news_rev.xpm
+           src/pixmaps/toolbar_next_art_1.xpm
+           src/pixmaps/toolbar_next_thr_1.xpm
+           src/pixmaps/toolbar_open_1.xpm
+           src/pixmaps/toolbar_open_window_1.xpm
+           src/pixmaps/toolbar_post_1.xpm
+           src/pixmaps/toolbar_prev_art_1.xpm
+           src/pixmaps/toolbar_prev_thr_1.xpm
+           src/pixmaps/toolbar_print_1.xpm
+           src/pixmaps/toolbar_reload_1.xpm
+           src/pixmaps/toolbar_save_1.xpm
+           src/pixmaps/toolbar_search_1.xpm
+           src/pixmaps/toolbar_window_1.xpm
+           src/pixmaps/unlock_none.xpm
+           src/pixmaps/unlock_unknown.xpm
+           src/pixmaps/xm_error.xpm
+           src/pixmaps/xm_information.xpm
+           src/pixmaps/xm_question.xpm
+           src/pixmaps/xm_warning.xpm
+           src/port.h
+           src/readJPEG.c
+           src/toolbar.h
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     COPYRIGHT
+           libXmx/Xmx.c
+           libXmx/Xmx.h
+           libXmx/Xmx2.c
+           libXmx/XmxP.h
+           libhtmlw/HTML.c
+           libhtmlw/HTML.h
+           libhtmlw/HTMLP.h
+           libhtmlw/HTMLamp.h
+           libhtmlw/HTMLformat.c
+           libhtmlw/HTMLimages.c
+           libhtmlw/HTMLjot.c
+           libhtmlw/HTMLlists.c
+           libhtmlw/HTMLparse.c
+           libhtmlw/HTMLwidgets.c
+           libnut/mm.c
+           libnut/mm.h
+           libnut/str-tools.c
+           libnut/system.c
+           src/accept.c
+           src/annotate.c
+           src/audan.c
+           src/cci.h
+           src/cciBindings.c
+           src/cciBindings2.c
+           src/cciServer.c
+           src/comment.h
+           src/copyright.tmpl
+           src/gifread.c
+           src/globalhist.c
+           src/grpan-www.c
+           src/grpan.c
+           src/gui-dialogs.c
+           src/gui-documents.c
+           src/gui-extras.c
+           src/gui-ftp.c
+           src/gui-menubar.c
+           src/gui-news.c
+           src/gui-popup.c
+           src/gui-popup.h
+           src/gui.c
+           src/history.c
+           src/hotfile.c
+           src/hotlist.c
+           src/img.c
+           src/kcms.c
+           src/md5.c
+           src/medcut.c
+           src/mo-dtm.c
+           src/mo-hdf.c
+           src/mo-www.c
+           src/mosaic.h
+           src/newsrc.c
+           src/newsrc.h
+           src/pan.c
+           src/picread.c
+           src/pixmaps.c
+           src/pixmaps.h
+           src/proxy-dialogs.c
+           src/proxy-misc.c
+           src/proxy.h
+           src/readPNG.h
+           src/support.c
+           src/xpmhash.c
+           src/xpmread.c
+Copyright: 1993-1995 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+
+Files:     src/annotate.h
+           src/audan.h
+           src/bla.h
+           src/cciBindings.h
+           src/cciBindings2.h
+           src/child.h
+           src/gifread.h
+           src/globalhist.h
+           src/grpan-www.h
+           src/grpan.h
+           src/gui-dialogs.h
+           src/gui-documents.h
+           src/gui-extras.h
+           src/gui-ftp.h
+           src/gui-menubar.h
+           src/gui-news.h
+           src/gui.h
+           src/hdf-browse.h
+           src/history.h
+           src/hotfile.h
+           src/img.h
+           src/mailto.h
+           src/main.h
+           src/medcut.h
+           src/mo-dtm.h
+           src/mo-hdf.h
+           src/mo-www.h
+           src/pan.h
+           src/picread.h
+           src/proxy-dialogs.h
+           src/proxy-misc.h
+           src/readJPEG.h
+           src/support.h
+           src/xpmhash.h
+           src/xpmread.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Created: Wed Apr 10 17:41:00 CDT 1996
+ Author: Dan Pape
+ .
+ this file contains stuff from the old "mosaic.h" file. I am breaking
+ that file up because it was too big, and required a re-compile of all
+ the source whenever something changed.
+
+Files:     libhtmlw/list.h
+           libhtmlw/listP.h
+           libnet/collage.h
+           libnet/doodle.h
+           libnet/list.h
+           libnet/listP.h
+           libnet/mesg.c
+           libnet/net.c
+           libnet/net.h
+           libnet/netP.h
+           libnet/netdata.c
+           libnet/netdata.h
+           src/list.h
+           src/listP.h
+Copyright: 1992 Board of Trustees of the University of Illinois.
+License:   __UNKNOWN__
+ Permission is granted to copy and distribute source with out fee.
+ Commercialization of this product requires prior licensing
+ from the National Center for Supercomputing Applications of the
+ University of Illinois.  Commercialization includes the integration of this
+ code in part or whole into a product for resale.  Free distribution of
+ unmodified source and use of NCSA software is not considered
+ commercialization.
+
+Files:     libhtmlw/HTML-PSformat.c
+           libhtmlw/HTML-PSformat.c.org
+Copyright: :   This work is the product of the United States Government,
+License:   __UNKNOWN__
+ Institution: for Ameet A. Raval:
+ Geophysical Fluid Dynamics Laboratory,
+ National Oceanic and Atmospheric Administration,
+ U.S. Department of Commerce
+ P.O. Box 308
+ Princeton, NJ 08542
+ for Frans van Hoesel:
+ Xtreme graphics software
+ Herepoortenmolendrift 36
+ 9711 DH  Groningen
+ The Netherlands
+ also:
+ Andrew Ford
+ Independent Software Consultant
+ 30 Upper Cheltenham Place,
+ Montpelier, Bristol, BS6 5HR, GB
+ E-mail: andrew@icarus.demon.co.uk
+ .
+ Date:		1 aug 1993
+ Modification:	8 nov 1993
+ o added support for bold/italics courier
+ o removed unused or no longer needed stuff
+ o fixed the font alignment problem
+ 23 nov 1993
+ o added support for horizontal ruler
+ o on request of Ameet, added a specific
+ line about whome to send bugreports to
+ 15 jun 1994
+ o add headers, footers and footnotes to convey
+ title, page number, url of document, date (of
+ printing) and urls of links.
+ o use A4 or US Letter size paper (currently hard coded)
+ .
+ 9 may 1995 (Andrew Ford)
+ o general overhaul
+ .
+ and is precluded from copyright protection.  It is hereby
+ released into the public domain.
+ .
+ WE MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY. WE SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ pieces of code are taken from xvps by kind
+ permission of John Bradley.
+ .
+ To-do:
+ * printing of tables and forms fields (and any new features that appear)
+
+Files:     src/xpm.h
+Copyright: 1990-1993 GROUPE BULL
+           1993 Board of Trustees of the University of Illinois
+License:   ISC
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ The following XPM header file is based on the libXpm code, which I
+ am free to use as long as I include the following copyright:
+ .
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation, and that the name of GROUPE BULL not be used in advertising
+ or publicity pertaining to distribution of the software without specific,
+ written prior permission.  GROUPE BULL makes no representations about the
+ suitability of this software for any purpose.  It is provided "as is"
+ without express or implied warranty.
+ .
+ GROUPE BULL disclaims all warranties with regard to this software,
+ including all implied warranties of merchantability and fitness,
+ in no event shall GROUPE BULL be liable for any special,
+ indirect or consequential damages or any damages
+ whatsoever resulting from loss of use, data or profits,
+ whether in an action of contract, negligence or other tortious
+ action, arising out of or in connection with the use
+ or performance of this software.
+
+Files:     src/comment.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Written By:  Scott Powers
+ Date:        April 26, 1995
+ Purpose:     Creates a comment card for Mosaic. Submittal is via form
+ and works in conjunction with	a "C" cgi-bin program.
+
+Files:     libwww2/HTIcon.c
+Copyright: __NO_COPYRIGHT__ in: libwww2/HTIcon.c
+License:   __UNKNOWN__
+ This routine takes two parameters, Format (as returned by HTFileFormat)
+ and a default icon type.  The type is the first half of the MIME type field
+ (i.e. image from image/jpeg).  If the icon type cannot be determined from
+ the format or from the default, then the unknown icon is returned.
+ .
+ Note: This routine gurantee's to return something!
+
+Files:     src/main.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ SOCKS mods by:
+ Ying-Da Lee, <ylee@syl.dl.nec.com>
+ NEC Systems Laboratory
+ C&C Software Technology Center
+
+Files:     src/mailto.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Interface for mailto: URLs, stolen from techsupport.c
+
+Files:     libhtmlw/list.c
+Copyright: 1992 Board of Trustees of the University of Illinois.
+License:   __UNKNOWN__
+ Permission is granted to copy and distribute source with out fee.
+ Commercialization of this product requires prior licensing
+ from the National Center for Supercomputing Applications of the
+ University of Illinois.  Commercialization includes the integration of this
+ code in part or whole into a product for resale.  Free distribution of
+ unmodified source and use of NCSA software is not considered
+ commercialization.
+ .
+ list.c:  This module contains list manipulation routines that cunstruct
+ and maintain a linked list of data items.  The record at the head of each
+ list contains pointers to the head, tail, and current list position.
+ the list itsself is doubly linked with both next and previous pointers.
+ .
+ ddt
+
+Files:     src/readPNG.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ A lot of this is copied from the PNGLIB file example.c
+ .
+ Modified:
+ .
+ August   1995 - Glenn Randers-Pehrson <glennrp@arl.mil>
+ Changed dithering to use a 6x6x6 color cube.
+ .
+ March 21 1996 - DXP
+ Fixed some interlacing problems.
+
+Files:     src/international.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ The idea for internationalization was pushed into the minds at NCSA due
+
+Files:     src/bla.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ CCI redirect object
+
+Files:     src/whine.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Support for whining to Mosaic authors.
+
+Files:     src/child.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ this module intended to handle child process clean up through callbacks
+ written for version 2.5
+
+Files:     src/hotlist.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ #include "mosaic.h"
+
+Files:     src/prefs.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Created: Wed Dec 20 11:08:12 CDT 1995
+ Author: Dan Pape
+
+Files:     src/prefs.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Created: Wed Sep 20 11:05:19 CDT 1995
+ Modified: All the time.
+ Author: Dan Pape
+
+Files:     src/md5.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ most of this stuff was taken from the original code from RSA Data Security, Inc.
+ The appropriate header comments will be included where appropriate
+ .
+ GLOBAL.H - RSAREF types and constants
+ .
+ PROTOTYPES should be set to one if and only if the compiler supports
+ function argument prototyping.
+ The following makes PROTOTYPES default to 0 if it has not already
+ been defined with C compiler flags.
+
+Files:     libhtmlw/inkstore.h
+Copyright: 1993 Slate Corporation,
+License:   __UNKNOWN__
+ This document is part of the Jot specification for the storage and
+ interchange of electronic ink data.  This specification is the joint work
+ of representatives of Slate Corporation, Lotus Development Corporation,
+ GO, Microsoft, Apple, General Magic, and others.
+ .
+ This document and the accompanying code samples on disk comprise Version
+ 1.0 of the Jot specification for the storage and interchange of electronic
+ ink data.  Permission is granted to incorporate and otherwise use any
+ portion of the specification.  You may make copies of the specification
+ for distribution to others, provided you include the notice "Copyright
+ 1993, Slate Corporation.   on both the document and
+ the disk label.  You may not modify this specification without written
+ permission from Slate Corporation.
+ .
+ The specification is provided "as is" without warranty of any kind.  Slate
+ further disclaims all implied warranties of merchantability or of fitness
+ for a particular purpose.  The entire risk arising out of the use or
+ performance of the specification remains with you.
+
+Files:     src/xresources.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ This document should be included in whatever source document
+ sets up the Intrinsics.  It is in a separate file so it doesn't
+ clutter up that file.  So sue me.
+
+Files:     libnut/url-utils.c
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Note that this code is taken almost straight from the httpd cgi-src
+ directory.
+
+Files:     src/prefs_defs.h
+Copyright: 1993 Board of Trustees of the University of Illinois
+License:   __UNKNOWN__
+ NCSA Mosaic software, both binary and source (hereafter, Software) is
+ copyrighted by The Board of Trustees of the University of Illinois
+ (UI), and ownership remains with the UI.
+ .
+ The UI grants you (hereafter, Licensee) a license to use the Software
+ for academic, research and internal business purposes only, without a
+ fee.  Licensee may distribute the binary and source code (if released)
+ to third parties provided that the copyright notice and this statement
+ appears on all copies and that no charge is associated with such
+ copies.
+ .
+ Licensee may make derivative works.  However, if Licensee distributes
+ any derivative work based on or derived from the Software, then
+ Licensee will (1) notify NCSA regarding its distribution of the
+ derivative work, and (2) clearly notify users that such derivative
+ work is a modified version and not the original NCSA Mosaic
+ distributed by the UI.
+ .
+ Any Licensee wishing to make commercial use of the Software should
+ contact the UI, c/o NCSA, to negotiate an appropriate license for such
+ commercial use.  Commercial use includes (1) integration of all or
+ part of the source code into a product for sale or license by or on
+ behalf of Licensee to third parties, or (2) distribution of the binary
+ code or source code to third parties that need it to utilize a
+ commercial product sold or licensed by or on behalf of Licensee.
+ .
+ UI MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE FOR
+ ANY PURPOSE.  IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED
+ WARRANTY.  THE UI SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY THE
+ USERS OF THIS SOFTWARE.
+ .
+ By using or copying this Software, Licensee agrees to abide by the
+ copyright law and all other applicable laws of the U.S. including, but
+ not limited to, export control laws, and the terms of this license.
+ UI shall have the right to terminate this license immediately by
+ written notice upon Licensee's breach of, or non-compliance with, any
+ of its terms.  Licensee may be held legally responsible for any
+ copyright infringement that is caused or encouraged by Licensee's
+ failure to abide by the terms of this license.
+ .
+ Comments and questions are welcome and can be sent to
+ mosaic-x@ncsa.uiuc.edu.
+ .
+ Created: Fri Dec 22 21:14:56 CDT 1995
+ Author: Dan Pape
+ .
+ This should only be compiled once per source file
+
+Files:     libnet/list.c
+Copyright: 1992 Board of Trustees of the University of Illinois.
+License:   __UNKNOWN__
+ Permission is granted to copy and distribute source with out fee.
+ Commercialization of this product requires prior licensing
+ from the National Center for Supercomputing Applications of the
+ University of Illinois.  Commercialization includes the integration of this
+ code in part or whole into a product for resale.  Free distribution of
+ unmodified source and use of NCSA software is not considered
+ commercialization.
+ .
+ list.c:  This module contains list manipulation routines that cunstruct
+ and maintain a linked list of data items.  The record at the head of each
+ list contains pointers to the head, tail, and current list position.
+ the list itsself is doubly linked with both next and previous pointers.
+
+Files:     libwww2/HTFTP.c
+Copyright: __NO_COPYRIGHT__ in: libwww2/HTFTP.c
+License:   __UNKNOWN__
+ Completely re-wrote this chunk of code to present FTP directory information
+ in a much more useful manner.  Also included the use of icons. -Crh
+
+Files:     libwww2/HTInit.c
+Copyright: 1991 Bell Communications Research, Inc. (Bellcore)
+License:   __UNKNOWN__
+ Permission to use, copy, modify, and distribute this material
+ for any purpose and without fee is hereby granted, provided
+ that the above copyright notice and this permission notice
+ appear in all copies, and that the name of Bellcore not be
+ used in advertising or publicity pertaining to this
+ material without the specific, prior written permission
+ of an authorized representative of Bellcore.  BELLCORE
+ MAKES NO REPRESENTATIONS ABOUT THE ACCURACY OR SUITABILITY
+ OF THIS MATERIAL FOR ANY PURPOSE.  IT IS PROVIDED "AS IS",
+ WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES.
+ .
+ Metamail -- A tool to help diverse mail readers
+ cope with diverse multimedia mail formats.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         README.resources.html
+#         docs/resources.html
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

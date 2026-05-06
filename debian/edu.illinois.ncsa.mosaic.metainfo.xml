@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>edu.illinois.ncsa.mosaic</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>LicenseRef-NCSA-Mosaic</project_license>
+  <name>NCSA Mosaic</name>
+  <summary>One of the first graphical web browsers</summary>
+  <developer id="edu.illinois.ncsa">
+    <name>National Center for Supercomputing Applications (NCSA)</name>
+  </developer>
+  <description>
+    <p>
+      NCSA Mosaic 2.7 is one of the first graphical web browsers, originally
+      developed at the National Center for Supercomputing Applications (NCSA) at
+      the University of Illinois. It played a pivotal role in popularising the
+      World Wide Web by introducing inline images and a point-and-click interface
+      to navigate hypertext documents.
+    </p>
+    <p>
+      Features include support for HTTP, FTP, Gopher, NNTP and local file
+      browsing, inline JPEG and PNG images, HTML forms, hotlists, session
+      history, and PostScript printing.
+    </p>
+  </description>
+  <launchable type="desktop-id">edu.illinois.ncsa.mosaic.desktop</launchable>
+  <icon type="stock">edu.illinois.ncsa.mosaic</icon>
+  <url type="homepage">https://github.com/alandipert/ncsa-mosaic</url>
+  <categories>
+    <category>Network</category>
+    <category>WebBrowser</category>
+  </categories>
+  <provides>
+    <binary>ncsa-mosaic</binary>
+  </provides>
+  <releases>
+    <release version="2.7b9" date="1996-01-01">
+      <description>
+        <p>NCSA Mosaic 2.7b9 community release, repackaged for modern Debian.</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

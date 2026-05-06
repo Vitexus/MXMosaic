@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=NCSA Mosaic
+GenericName=Web Browser
+Comment=One of the first graphical web browsers
+Exec=ncsa-mosaic %u
+Icon=edu.illinois.ncsa.mosaic
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/ftp;
+Terminal=false
+StartupNotify=false

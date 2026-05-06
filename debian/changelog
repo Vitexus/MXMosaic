@@ -1,6 +1,10 @@
-ncsa-mosaic (0.1.0) UNRELEASED; urgency=low
+ncsa-mosaic (2.7b9-1) UNRELEASED; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial Debian packaging of NCSA Mosaic 2.7b9.
+  * Build-fixed for Debian 13 (trixie): updated X11 include/lib paths,
+    replaced obsolete libpng12-dev with libpng-dev, dropped unavailable
+    x11proto-print-dev, added -std=gnu89 to support legacy K&R C code.
+  * Added AppStream metainfo, .desktop entry and hicolor icons (16–512 px)
+    sourced from alrra/browser-logos.
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sat, 12 Apr 2025 22:37:06 +0200
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 06 May 2026 16:10:29 +0000

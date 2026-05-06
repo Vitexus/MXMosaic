@@ -1,17 +1,24 @@
 #!/usr/bin/make -f
-# You must remove unused comment lines for the released package.
-#export DH_VERBOSE = 1
-#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
-#export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1
 
 export DEV_ARCH = linux
 
 %:
 	dh $@
 
-#override_dh_auto_install:
-#	dh_auto_install -- prefix=/usr
+override_dh_auto_build:
+	$(MAKE) linux
 
-#override_dh_install:
-#	dh_install --list-missing -X.pyc -X.pyo
+override_dh_auto_install:
+	install -D -m 755 src/Mosaic debian/ncsa-mosaic/usr/bin/ncsa-mosaic
+	install -D -m 644 Mosaic.ad debian/ncsa-mosaic/etc/X11/app-defaults/Mosaic
+	install -D -m 644 mosaic-spoof-agents debian/ncsa-mosaic/etc/mosaic/mosaic-spoof-agents
+	install -D -m 644 mosaic-user-defs debian/ncsa-mosaic/etc/mosaic/mosaic-user-defs
+	install -D -m 644 debian/edu.illinois.ncsa.mosaic.desktop debian/ncsa-mosaic/usr/share/applications/edu.illinois.ncsa.mosaic.desktop
+	install -D -m 644 debian/edu.illinois.ncsa.mosaic.metainfo.xml debian/ncsa-mosaic/usr/share/metainfo/edu.illinois.ncsa.mosaic.metainfo.xml
+	for sz in 16 24 32 48 64 128 256 512; do \
+		install -D -m 644 debian/icons/mosaic_$${sz}x$${sz}.png \
+			debian/ncsa-mosaic/usr/share/icons/hicolor/$${sz}x$${sz}/apps/edu.illinois.ncsa.mosaic.png; \
+	done
+
+override_dh_auto_clean:
+	$(MAKE) clean

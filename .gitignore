@@ -1,3 +1,7 @@
 *.o
 *.a
 /src/Mosaic
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/ncsa-mosaic.substvars
